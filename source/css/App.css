@@ -1,0 +1,15 @@
+body {
+	font-family: Asap, Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+	background-image: url(../../../images/soft_wallpaper.png);
+	text-align: center;
+}
+
+.header-font {
+	font-family: 'Signika Negative';
+}
+
+.label {
+	color: rgb(0, 200, 255);
+	float: right;
+	padding: 2px;
+}

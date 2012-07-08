@@ -1,0 +1,9 @@
+.d3ChartArea {
+	width: 100%;
+	height: 100%;
+}
+
+.d3ChartArea svg {
+	width: 100%;
+	height: 100%;
+}

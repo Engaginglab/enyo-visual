@@ -1,0 +1,20 @@
+.dotPlot circle.dot {
+	opacity: 0.8;
+}
+
+.dotPlot line {
+	stroke: black;
+}
+
+.dotPlot .yLabel {
+	text-anchor: end;
+}
+
+.dotPlot .xLabel {
+	text-anchor: middle;
+}
+
+.dotPlot .axisLabel {
+	text-anchor: middle;
+	font-size: 11pt;
+}

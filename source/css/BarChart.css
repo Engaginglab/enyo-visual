@@ -1,0 +1,31 @@
+.barChart path {
+    stroke-width: 5;
+    fill: none;
+}
+ 
+.barChart line {
+    stroke: black;
+}
+
+.barChart .bar {
+	opacity: 0.6;
+}
+ 
+/*.barChart text {
+    font-family: Arial;
+    font-size: 9pt;
+}*/
+
+.barChart .yLabel {
+	text-anchor: end;
+}
+
+.barChart .xLabel {
+	text-anchor: middle;
+}
+
+.barChart .axisLabel {
+	text-anchor: middle;
+	font-size: 11pt;
+}
+

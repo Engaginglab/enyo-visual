@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+	<title>Statistik</title>
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="viewport" content="width=device-width initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta charset="utf-8" />
+	<!-- <script src="lib/jquery.js" type="text/javascript"></script>  -->
+	<script src="../enyojs/enyo/enyo.js" type="text/javascript"></script>
+	<script src="package.js" type="text/javascript"></script>
+</head>
+<body class="spowalla-report" ontouchmove="touchMove(event);">
+<script type="text/javascript">
+	touchMove = function(event) {
+		// Prevent scrolling on this element
+		event.preventDefault();
+	}
+	enyo.Scroller.touchScrolling = true;
+	new StatsApp({classes: "enyo-fit enyo-unselectable"}).write();
+</script>
+</body>
+</html>

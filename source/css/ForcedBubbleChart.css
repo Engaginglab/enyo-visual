@@ -1,0 +1,8 @@
+.forcedBubbleChart {
+	width: 100%;
+	height: 100%;
+}
+
+.forcedBubbleChart .node {
+	opacity: 1;
+}

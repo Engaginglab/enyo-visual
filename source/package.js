@@ -1,0 +1,13 @@
+enyo.depends(
+	"css/",
+	"StatsApp.js",
+	"D3ChartArea.js",
+	"BubbleChart.js",
+	"ForcedBubbleChart.js",
+	"LineChart.js",
+	"ChordChart.js",
+	"DotPlot.js",
+	"BarChart.js",
+	"player.js",
+	"DataManager.js"
+);

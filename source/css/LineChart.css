@@ -1,0 +1,27 @@
+.lineChart path {
+    stroke-width: 5;
+    fill: none;
+}
+ 
+.lineChart line {
+    stroke: black;
+}
+ 
+.lineChart text {
+    font-family: Arial;
+    font-size: 9pt;
+}
+
+.lineChart .yLabel {
+	text-anchor: end;
+}
+
+.lineChart .xLabel {
+	text-anchor: middle;
+}
+
+.lineChart .axisLabel {
+	text-anchor: middle;
+	font-size: 11pt;
+}
+
